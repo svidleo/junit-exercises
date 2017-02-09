@@ -1,4 +1,4 @@
-package com.swedbank.itacademy.exception;
+package com.swedbank.itacademy.exercise;
 
 
 import com.swedbank.itacademy.exception.NoSuchItemException;

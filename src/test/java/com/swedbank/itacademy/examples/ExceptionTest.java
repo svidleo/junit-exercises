@@ -6,6 +6,7 @@ import org.junit.Test;
 
 public class ExceptionTest {
 
+    @Test(expected = IllegalArgumentException.class)
     public void testForExceptions1() {
         MyFirstUnit myUnit = new MyFirstUnit();
 

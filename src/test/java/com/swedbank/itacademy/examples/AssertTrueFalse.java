@@ -10,6 +10,9 @@ public class AssertTrueFalse {
     @Test
     public void testGetTheBoolean() {
         MyFirstUnit myUnit = new MyFirstUnit();
+
+        assertTrue (myUnit.getBoolean());
+        assertFalse(myUnit.getBoolean());
     }
 
 }

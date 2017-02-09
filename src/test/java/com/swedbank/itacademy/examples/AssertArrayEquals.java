@@ -14,5 +14,7 @@ public class AssertArrayEquals {
         String[] expectedArray = {"one", "two", "three"};
 
         String[] resultArray =  myUnit.getTheStringArray();
+
+        assertArrayEquals(expectedArray, resultArray);
     }
 }

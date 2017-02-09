@@ -12,5 +12,7 @@ public class AssertEquals {
         MyFirstUnit myUnit = new MyFirstUnit();
 
         String result = myUnit.concatenate("one", "two");
+
+        assertEquals("onetwo", result);
     }
 }

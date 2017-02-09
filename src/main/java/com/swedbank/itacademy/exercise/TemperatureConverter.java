@@ -1,4 +1,4 @@
-package com.swedbank.itacademy.exception;
+package com.swedbank.itacademy.exercise;
 
 public class TemperatureConverter {
     public static int toCelcius(int fahrenheit) {

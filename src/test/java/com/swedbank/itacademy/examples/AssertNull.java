@@ -11,5 +11,9 @@ public class AssertNull {
     @Test
     public void testGetTheObject() {
         MyFirstUnit myUnit = new MyFirstUnit();
+
+        assertNull(myUnit.getObject());
+
+        assertNotNull(myUnit.getObject());
     }
 }
